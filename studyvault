@@ -1,0 +1,15 @@
+studyvault/
+├── app/
+│   ├── main.py          # FastAPI 실행 진입점
+│   ├── routes/
+│   │   ├── students.py  # 학생 관련 route
+│   │   ├── documents.py # 자료 관련 route
+│   ├── models/
+│   │   ├── user.py      # 사용자 모델
+│   │   ├── document.py  # 자료 모델
+│   ├── services/
+│   │   ├── crud.py      # CRUD 로직 분리
+│   ├── templates/       # HTML 템플릿
+│   ├── static/          # CSS/JS 등
+├── requirements.txt
+├── README.md
